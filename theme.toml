@@ -1,0 +1,16 @@
+name = "Greyshade"
+license = "MIT"
+licenselink = "http://sm.mit-license.org/"
+description = "Port of Octopress's excellent theme to Hugo"
+homepage = "https://github.com/shashankmehta/greyshade"
+tags = ["blog", "octopress"]
+
+[author]
+  name = "cxfksword"
+  homepage = "http://cxfksword.github.io"
+
+# If porting an existing theme
+[original]
+  name = "Shashank Mehta"
+  homepage = "http://github.com/shashankmehta/greyshade"
+  repo = "https://github.com/shashankmehta/greyshade"
