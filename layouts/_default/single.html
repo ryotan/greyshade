@@ -4,9 +4,9 @@
 	<div class="container">
 		<div class="left-col">
 			<div class="intrude-less">
-			<header id="header" class="inner">{{ partial "header.html" . }}</header>				
+			<header id="header" class="inner">{{ partial "header.html" . }}</header>
 			</div>
-		</div>	
+		</div>
 		<div class="mid-col">
 			{{ if isset .Site.Params "banner" }}
 				{{ partial "banner.html" . }}
@@ -18,7 +18,7 @@
 					{{ if ne .Params.sharing "false" }}
 						{{ partial "post/sharing.html" . }}
 					{{ end }}
-					{{ if and (isset $.Site.Params "disqus_short_name") (ne .Params.comments "false") }}
+					{{ if and $.Site.Params.disqus_short_name (ne .Params.comments "false") }}
 					<section id="comment">
 					    <h1 class="title">Comments</h1>
 					    <div id="disqus_thread" aria-live="polite">{{ partial "post/disqus_thread.html" . }}</div>
