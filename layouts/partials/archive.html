@@ -1,8 +1,9 @@
 <div itemscope itemtype="http://schema.org/Blog">
 	{{ $prevYear := "" }}
 	{{ $pages := .Data.Pages }}
-	{{ range $index, $page := .Data.Pages }}	
-		
+	{{ range $index, $page := .Data.Pages }}
+		{{ if eq .Type "post" }}
+
 		{{ if eq $index 0 }}
 		<section class="archives"><h1 class="year">{{ dateFormat "2006" .Date }}</h1>
 		{{ else }}
@@ -13,9 +14,9 @@
 			{{ if ne $prevYear $curYear }}
 				</section>
 				<section class="archives"><h1 class="year">{{ dateFormat "2006" .Date }}</h1>
-			{{ end }}	 
+			{{ end }}
 		{{ end }}
-		       
+
 		<article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
 			<div class="meta">
 				<span class="date"><time datetime='{{ dateFormat "2006" .Date }}' itemprop="datePublished">{{ dateFormat "Jan 2" .Date }}</time></span>
@@ -27,6 +28,8 @@
 			</div>
 			<h1 class="title" itemprop="name"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
 		</article>
+
+		{{ end }}
 	{{ end }}
 	</section>
 </div>
