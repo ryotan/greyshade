@@ -35,7 +35,6 @@ name = "hugo"
 email = ""
 
 [taxonomies]
-tag = "tags"
 category = "categories"
 
 [params]
