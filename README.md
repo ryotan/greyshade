@@ -5,11 +5,9 @@ Greyshade
 
 For demo, check out websites from the [wiki](https://github.com/shashankmehta/greyshade/wiki/Sites-using-Greyshade/)
 
-![mobile view](https://dl.dropbox.com/u/6396581/greyshade/1.png)
+![mobile view](/images/screenshot_mobile.png)
 
-![mobile view](https://dl.dropbox.com/u/6396581/greyshade/3.png)
-
-![Desktop view](https://dl.dropbox.com/u/6396581/greyshade/2.png)
+![screenshot](/images/screenshot.png)
 
 ### Features
 
