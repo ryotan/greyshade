@@ -2,7 +2,7 @@
     <div class="meta">
 		<div class="date">{{ partial "post/date.html" . }}</div>
 		<div class="tags">{{ partial "post/categories.html" . }}</div>
-		{{ if and (isset $.Site.Params "disqus_short_name") (isset $.Site.Params "disqus_show_comment_count") }}
+		{{ if $.Site.Params.disqus_short_name }}
 			<span class="comments"><a href="{{ .Permalink }}#disqus_thread">Comments</a></span>
 		{{ end }}
 	</div>
