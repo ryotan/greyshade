@@ -30,7 +30,8 @@
   <script src="{{ .Site.BaseURL }}/js/jquery.min.js"></script>
   {{ partial "custom/head.html" . }}
   {{ partial "google_analytics.html" . }}
-  <link rel="stylesheet" href="https://yandex.st/highlightjs/8.0/styles/default.min.css">
-  <script src="https://yandex.st/highlightjs/8.0/highlight.min.js"></script>
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/highlight/github.css">
+  <script src="{{ .Site.BaseURL }}/js/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
   <link href="{{ .Site.BaseURL }}/css/style.css" media="screen, projection" rel="stylesheet" type="text/css">
 </head>

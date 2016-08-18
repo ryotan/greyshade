@@ -46,8 +46,8 @@
 #sub-nav .social a.rss{
   background: url('../images/social/rss.png') center no-repeat #EF7522;
 }
-.hljs {
-  background: inherit !important;
+article pre {
+  background: #f8f8f8;
 }
 .archives article.posts {
   margin-left: 0;
