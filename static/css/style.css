@@ -49,3 +49,6 @@
 .hljs {
   background: inherit !important;
 }
+.archives article.posts {
+  margin-left: 0;
+}
