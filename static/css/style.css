@@ -1,0 +1,51 @@
+#sub-nav .social a.email{
+  background: url('../images/social/email.png') center no-repeat #050505;
+}
+#sub-nav .social a.facebook{
+  background: url('../images/social/facebook.png') center no-repeat #3B5998;
+}
+#sub-nav .social a.google{
+  background: url('../images/social/google.png') center no-repeat #C83D20;
+}
+#sub-nav .social a.twitter{
+  background: url('../images/social/twitter.png') center no-repeat #55CFF8;
+}
+#sub-nav .social a.github{
+  background: url('../images/social/github.png') center no-repeat rgb(175,182,202);
+}
+#sub-nav .social a.coderwall{
+  background: url('../images/social/coderwall.png') center no-repeat #3E8DCC;
+}
+#sub-nav .social a.stackoverflow{
+  background: url('../images/social/stackoverflow.png') center no-repeat #EF7522;
+}
+#sub-nav .social a.linkedin{
+  background: url('../images/social/linkedin.png') center no-repeat #005A87;
+}
+#sub-nav .social a.pinterest{
+  background: url('../images/social/pinterest.png') center no-repeat rgb(190,64,55);
+}
+#sub-nav .social a.delicious{
+  background: url('../images/social/delicious.png') center no-repeat rgb(50,113,203);
+}
+#sub-nav .social a.pinboard{
+  background: url('../images/social/pinboard.png') center no-repeat rgb(0,102,200);
+}
+#sub-nav .social a.douban{
+  background: url('../images/social/douban.png') center no-repeat rgb(0,128,36);
+}
+#sub-nav .social a.quora{
+  background: url('../images/social/quora.png') center no-repeat #a82400;
+}
+#sub-nav .social a.instagram{
+  background: url('../images/social/instagram.png') center no-repeat #517fa4;
+}
+#sub-nav .social a.behance{
+  background: url('../images/social/behance.png') center no-repeat #1769ff;
+}
+#sub-nav .social a.rss{
+  background: url('../images/social/rss.png') center no-repeat #EF7522;
+}
+.hljs {
+  background: inherit !important;
+}
