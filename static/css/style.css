@@ -52,3 +52,6 @@ article pre, article code {
 .archives article.posts {
   margin-left: 0;
 }
+.container .mid-col .mid-col-container {
+  max-width: unset;
+}
