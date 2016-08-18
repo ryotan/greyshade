@@ -46,7 +46,7 @@
 #sub-nav .social a.rss{
   background: url('../images/social/rss.png') center no-repeat #EF7522;
 }
-article pre {
+article pre, article code {
   background: #f8f8f8;
 }
 .archives article.posts {
