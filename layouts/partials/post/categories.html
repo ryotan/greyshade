@@ -5,7 +5,7 @@
 	{{ if lt $i $len }}
 		<a href="{{ $.Site.BaseURL }}/categories/{{ $category | urlize }}"> {{ $category }} </a>,
 	{{ else }}
-	    <a href="{{ $.Site.BaseURL }}/categories/{{ $category | urlize }}"> {{ $category }} </a>
+    <a href="{{ $.Site.BaseURL }}/categories/{{ $category | urlize }}"> {{ $category }} </a>
 	{{ end }}
 {{ end }}
 {{ end }}
